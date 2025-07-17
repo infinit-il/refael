@@ -1,0 +1,11 @@
+chartPath: demo/guestbook
+values: |
+  guestbook:
+    containers:
+      server:
+        dev:
+          enabled: false
+          # enabled: true
+    ingress:
+      enabled: true
+

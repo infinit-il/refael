@@ -9,4 +9,5 @@ values: |
     ingress:
       enabled: true
 
-valueFiles: "- $environments/dev/component.yaml"
+valueFiles: 
+  - $environments/dev/component.yaml

@@ -10,5 +10,5 @@ values: |
       enabled: true
 
 
-valueFile1: ./tst-demo.yaml
+# valueFile1: $environments/dev/tst-demo.yaml
 

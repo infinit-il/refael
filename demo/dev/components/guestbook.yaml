@@ -9,6 +9,6 @@ values: |
     ingress:
       enabled: true
 
-valueFiles:
-  - $environments/dev/component.yaml
-  - $environments/dev/logging.yaml
+
+valueFile1: $environments/dev/tst-demo.yaml
+

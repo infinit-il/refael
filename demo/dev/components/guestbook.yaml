@@ -9,4 +9,6 @@ values: |
     ingress:
       enabled: true
 
-valueFiles: [ "helm/values/common.yaml", "helm/values/staging.yaml" ]
+valueFiles:
+  - $environments/dev/component.yaml
+  - $environments/dev/logging.yaml

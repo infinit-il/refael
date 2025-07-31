@@ -82,4 +82,3 @@ tolerations: []
 affinity: {}
 
 
-valueFiles: ["./values-dev.yaml"]

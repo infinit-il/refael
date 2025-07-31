@@ -1,3 +1,2 @@
 replicaCount: 2
 
-valueFiles: ["./values-dev.yaml"]
